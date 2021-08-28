@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotesAPI", "QuotesAPI.csproj", "{1B7BD09A-B4EB-4013-A889-B32894FF858D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7BD09A-B4EB-4013-A889-B32894FF858D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7BD09A-B4EB-4013-A889-B32894FF858D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7BD09A-B4EB-4013-A889-B32894FF858D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7BD09A-B4EB-4013-A889-B32894FF858D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E99E72B-DB2A-4012-99F3-6F7CB151FEC9}
+	EndGlobalSection
+EndGlobal

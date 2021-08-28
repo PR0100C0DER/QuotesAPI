@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "As/Z9kZI4HG+VRCruDrqy3J0M9IrU6kF6BWgHt08NTwN3DC+Xlp7vfnrLLfBpOxeC6So5cav4dNEGEahD3fHBQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programming in C#\\Alif_Tech\\QuotesAPI\\QuotesAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
