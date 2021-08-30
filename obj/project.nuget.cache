@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/A48LXrIu1WpwY7M1P4Z5j1gvWvMLUBGuQPPvndcdsJgPJdAh0c9tEg0ryf1xKySpW07ZQSB9WvXwuwvvLjj0w==",
+  "dgSpecHash": "Kv0t4kWUKKPP0XmKYWyfmanNAYTkikHRk6nasBWsDLMc3JZHf4oWKKhg4Mv1OfQQRvsK1yQYassHQq/+c8Siag==",
   "success": true,
   "projectFilePath": "D:\\Programming in C#\\Alif_Tech\\QuotesAPI\\QuotesAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
