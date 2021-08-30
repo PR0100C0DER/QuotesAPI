@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Entities.PostModels;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using QuotesAPI.Entitys;
-using QuotesAPI.Models;
-using QuotesAPI.Services.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using QuoteServices.Interface;
 using System.Threading.Tasks;
+using WebCore.ResponseDate;
 
 namespace QuotesAPI.Controllers
 {
@@ -16,57 +13,73 @@ namespace QuotesAPI.Controllers
     {
         IQuoteService _allQuoteService;
 
-        private IDataStorage _dataStorage;
-
-        public QuoteController(IDataStorage dataStorage, IQuoteService quoteService)
+        public QuoteController(IQuoteService quoteService)
         {
             _allQuoteService = quoteService;
-            _dataStorage = dataStorage;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ResponseData> GetAllQuotes()
         {
-            return _dataStorage.Get();
+            return await _allQuoteService.GetAllQuotesAsync();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ResponseData> CreateQuote([FromBody] QuotePostModel model)
         {
-            var quoteModel = await _allQuoteService.AddQuoteService(model);
-            _dataStorage.Create(model);
-            return "Quote Created.";
+            return await _allQuoteService.AddQuoteAsync(model);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="category"></param>
+        /// <returns></returns>
         [HttpGet("getbycategory")]
         public async Task<ResponseData> GetQuoteByCategory([FromQuery] string category)
         {
-            var quotes = await _dataStorage.GetByCategory(category);
-            if (quotes == null)
-                return NotFound();
-            return Ok(quotes);
+            return await _allQuoteService.GetByCategoryAsync(category);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("randomQuote")]
-        public ActionResult RandomQuote()
+        public async Task<ResponseData> RandomQuote()
         {
-            return Ok(_dataStorage.RandomQuote);
+            return await _allQuoteService.RandomQuoteAsync();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPut]
-        public async Task<ResponseData> EditQuote(int id, QuoteModel quote)
+        public async Task<ResponseData> EditQuote(QuotePutModel model)
         {
-            if (await _dataStorage.Edit(id, quote))
-                return Ok("Quote edit.");
-            return Ok("Quote with this Id Does not excist.");
+            return await _allQuoteService.UpdateQuoteAsync(model);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<ResponseData> DeleteQuote(int id)
         {
-            if (await _dataStorage.Delete(id))
-                return Ok("Quote deleted.");
-            return Ok("Quote with this Id Does not excist.");
+            return await _allQuoteService.DeleteQuoteAsync(id);
         }
     }
 }

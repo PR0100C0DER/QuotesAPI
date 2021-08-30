@@ -18,3 +18,16 @@ D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.Razor
 D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.dll
 D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.pdb
 D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.genruntimeconfig.cache
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\QuoteServices.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\WebCore.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\QuoteServices.pdb
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\WebCore.pdb
+D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.csproj.CopyComplete
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programming in C#\Alif_Tech\QuotesAPI\obj\Debug\netcoreapp3.1\QuotesAPI.MvcApplicationPartsAssemblyInfo.cs
